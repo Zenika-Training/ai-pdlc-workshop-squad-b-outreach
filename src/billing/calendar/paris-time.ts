@@ -1,7 +1,7 @@
 import { BillingError } from '../shared/errors.js';
 import type { Day } from './day-math.js';
 
-/** Business time zone of Kolecto (ORG-03). */
+/** Business time zone of the company (ORG-03). */
 export const PARIS = 'Europe/Paris';
 
 /** Wall-clock parts of an instant in Paris. */

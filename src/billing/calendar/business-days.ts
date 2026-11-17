@@ -10,7 +10,7 @@ export interface BusinessHours {
   holidays?: readonly Day[];
 }
 
-/** Kolecto office hours, also used by the support team. */
+/** Office hours, also used by the support team. */
 export const OFFICE_HOURS: BusinessHours = { openHour: 9, closeHour: 18 };
 
 export const isBusinessDay = (day: Day, holidays: readonly Day[] = FRENCH_PUBLIC_HOLIDAYS): boolean =>

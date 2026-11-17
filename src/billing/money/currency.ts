@@ -1,6 +1,6 @@
 import { BillingError } from '../shared/errors.js';
 
-/** Kolecto invoices in euros only (BILL-12). Kept as a type so a second currency is a compile error first. */
+/** The company invoices in euros only (BILL-12). Kept as a type so a second currency is a compile error first. */
 export type Currency = 'EUR';
 
 export const DEFAULT_CURRENCY: Currency = 'EUR';

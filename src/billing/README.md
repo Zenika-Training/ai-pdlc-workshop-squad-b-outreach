@@ -1,6 +1,6 @@
 # Core Billing (existing code)
 
-Kolecto's invoicing core: ledger, customers, business calendar, money, templates, notifications, exports, reporting.
+The company's invoicing core: ledger, customers, business calendar, money, templates, notifications, exports, reporting.
 It predates the payment-reminders programme and runs in production for every customer.
 
 - **Owner:** Core Billing team (see `OWNERS`). Every change goes through them: open a change request, do not edit here.
